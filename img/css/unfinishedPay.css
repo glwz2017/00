@@ -1,0 +1,334 @@
+/* 主体*/
+.order-main::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+/*右侧*/
+.order-main .box-r {
+    width: 1080px;
+    padding-left: 276px;
+    padding-right: 80px;
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.r-top {
+    height: 60px;
+    width: 100%;
+    line-height: 63px;
+    text-indent: 20px;
+    background-image: url("../images/order/home.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #d3d3d3;
+    font-size: 12px;
+}
+
+.box-r .r-title {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #2e2525;
+    font-weight: bold;
+}
+
+/*返回顶部*/
+.order-main .go-btn {
+    position: fixed;
+    right: 10px;
+    top: 700px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/*进度图盒子*/
+.box-r .progress-map-box {
+    margin-top: 30px;
+    height: 80px;
+}
+
+.progress-map-box .progress-ul li {
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+.progress-line {
+    width: 359px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 2px solid #efefef;
+    margin-top: 10px;
+    position: relative;
+}
+
+.finish-pic {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.order-main .box-r .pay-success-box {
+    width: 100%;
+    padding: 150px 0 100px 300px;
+    box-sizing: border-box;
+}
+
+.vb {
+    width: 600px;
+    height: 150px;
+}
+
+/*支付方式盒子*/
+.pay-methods {
+    height: 319px;
+    width: 100%;
+    border: 1px solid #efefef;
+    margin-top: 25px;
+}
+
+.pay-methods .methods-top {
+    height: 200px;
+}
+
+.pay-methods .methods-bottom {
+    height: 120px;
+    border-bottom: 1px solid #efefef;
+    background-color: #f7f8f8;
+    padding: 30px 30px 0 30px;
+    box-sizing: border-box;
+}
+
+.pay-methods .methods-bottom .bottom-l {
+    float: left;
+    display: inline-block;
+}
+
+.pay-methods .methods-bottom .bottom-r {
+    float: right;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.pay-methods .methods-bottom .bottom-r * {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 2px;
+    margin-right: 15px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.26);
+}
+
+.pay-methods .methods-bottom .bottom-r .invoice {
+    background-color: #826c6c;
+}
+
+.pay-methods .methods-bottom .bottom-r .pay-btn {
+    background-color: #b21f1f;
+}
+
+.pay-methods .methods-top dl {
+    display: inline-block;
+    width: 360px;
+    height: 200px;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 30px 25px 0 25px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.pay-methods .methods-top dl dt, dd {
+    float: left;
+}
+
+.pay-methods .methods-top dl dt {
+    margin-right: 10px;
+    position: relative;
+}
+
+.pay-checked1, .pay-checked2, .pay-checked3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+    z-index: 9;
+}
+
+.label-bg {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/order/gou.png");
+    background-repeat: no-repeat;
+    vertical-align: text-top;
+}
+
+.pay-methods .methods-top .active {
+    background-image: url("../images/order/goued.png");
+}
+
+.coupons {
+    height: 100px;
+    padding: 80px 25px 0 25px;
+    box-sizing: border-box;
+}
+
+.coupons .rem-text {
+    float: right;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.coupons .rem-text .rem-price {
+    color: #b21f1f;
+}
+
+.price-div ul li {
+    margin-bottom: 15px;
+    color: #727171;
+    font-size: 12px;
+}
+
+.rf {
+    float: right;
+    font-weight: bold;
+    color: #2e2525;
+    font-size: 14px;
+}
+
+/*地址*/
+.delivery-ress {
+    margin: 18px 0 18px 0;
+    font-weight: bold;
+}
+
+.delivery-box {
+    background-image: url("../images/order/border-pic .png");
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 200px;
+    padding: 34px 0 0 30px;
+    box-sizing: border-box;
+}
+
+.delivery-box dl {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #2e2525;
+    margin-bottom: 5px;
+}
+
+.delivery-box dl dt {
+    margin-right: 20px;
+    min-width: 60px;
+}
+
+.delivery-box dl dt, dd {
+    float: left;
+}
+
+/*表格盒子*/
+.box-r .detail-box {
+    border: 1px solid #efefef;
+    margin-bottom: 22px;
+}
+
+.box-top {
+    height: 40px;
+    padding: 15px 15px 0 15px;
+    border-bottom: 1px solid #efefef;
+    box-sizing: border-box;
+}
+
+.box-r .detail-box .box-top .box-title {
+    font-weight: bold;
+    color: #2e2525;
+}
+
+.box-r .detail-box .box-top .box-price {
+    float: right;
+    font-weight: bold;
+    color: #b21f1f;
+}
+
+.box-r .detail-box .box-content::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+.box-r .detail-box .box-content .content-l {
+    width: 810px;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #efefef;
+}
+
+.box-r .detail-box .box-content .content-r {
+    width: 267px;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #727171;
+    float: left;
+}
+
+.box-content .content-l .content-list {
+    height: 40px;
+}
+
+.box-content .content-l .content-list li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    font-weight: bold;
+}
+/*文字超出部分出现省略号*/
+.box-content .content-l .content-list > li >a {
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box-content .content-l .content-list .bg-text {
+    width: 120px;
+    background-color: #f7f8f8;
+    font-size: 12px;
+    color: #727171;
+}
+
+.box-content .content-l .content-list .fg-text {
+    width: 150px;
+    color: #2e2525;
+    font-size: 12px;
+}
+
+.box-content .content-l .content-list .ot-text {
+    width: 420px;
+    color: #2e2525;
+    font-size: 12px;
+}
+
+.copy-right-box {
+    font-size: 12px;
+    color: #999;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 276px;
+}
